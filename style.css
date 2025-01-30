@@ -1,14 +1,63 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: rgba(255, 182, 193, 0.501);
+    
 }
 
+body {
+   
+}
+.container {
+   padding: 30px;
+   border-radius: 10px;
+  
+}
+
+.introducao {
+   
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: rgba(0, 128, 0, 0.345);
+    border-radius: 20px;
+}
+
+.introducao > h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+
+h1 {
+    font-family: "Reenie Beanie", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.827);
+
+  }
+
+  h2 {
+    font-family: "Reenie Beanie", serif;
+    font-weight: bolder;
+    font-size: 85px;
+    color: rgba(28, 95, 6, 0.827);
+  }
+  
+
 header {
-    height: 250px;
-    border: 2px solid rgba(255, 0, 0, 0.696);
-    background-image: url(imagens/Premium\ Vector\ _\ Native\ indigenous\ people.jpg);
-    background-position: cover;
+    height: 700px;
+    background-image: url(imagens/flexa.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
 }
 
  a {
@@ -20,14 +69,30 @@ header {
   
 }
 main {
-    height: 600px;
+    height: 1500px;
     text-align: center;
 }
 
 footer {
-    height: 100px;
+    margin-top: 200px;
+    height: 250px;
     text-align: center;
-    border: 2px solid black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
+    background-color: rgba(29, 84, 29, 0.858);
+}
+
+footer > p {
+    font-family: "Reenie Beanie", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.827);
+}
+.menor {
+    font-family: "Reenie Beanie", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.827);
 }
