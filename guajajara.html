@@ -4,8 +4,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guajajara</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Permanent+Marker&family=Reenie+Beanie&family=Satisfy&family=Sevillana&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+            margin: 0px;
+            padding: 0px;
+            background-color: rgba(34, 139, 34, 0.499);
+        }
+        header {
+            height: 700px;
+            background-image: url(imagens/guaja.webp);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        h2 {
+                text-align: center;
+            }
+            
+        h3 {
+                font-size: 38px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+        h4 {
+                font-size: 25px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+            
+    </style>
 </head>
 <body>
-    <h1>Guajajaras</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Página Inicial</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Povos Indígenas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="guarani.html">Guarani</a></li>
+                  <li><a class="dropdown-item" href="ticuna.html">Ticuna</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="caingangues.html">Caingangues</a></li>
+                  <li><a class="dropdown-item" href="macuxi.html">Macuxi</a></li>
+                  <li><a class="dropdown-item" href="yanomami.html">Yanomami</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="terena.html">Terena</a></li>
+                  <li><a class="dropdown-item" href="guajajara.html">Guajajara</a></li>
+                  <li><a class="dropdown-item" href="xavante.html">Xavante</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="potiguara.html">Potiguara</a></li>
+                  <li><a class="dropdown-item" href="pataxo.html">Pataxó</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Artes Indígenas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pintura.html">Pintura Corporal e Facial</a></li>
+                  <li><a class="dropdown-item" href="ceramica.html">Cerâmica e Olaria</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="cestaria.html">Cestaria e Tecelagem</a></li>
+                  <li><a class="dropdown-item" href="esculturas.html">Esculturas em Madeira e Pedra</a></li>
+                  <li><a class="dropdown-item" href="joiaseacessorios.html">Jóias e Acessórios</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="arteplumaria.html">Arte Plumária</a></li>
+                  <li><a class="dropdown-item" href="mascaras.html">Máscaras</a></li>
+                  <li><a class="dropdown-item" href="historiaselendas.html">Histórias e Lendas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                 
+                  
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<header>
+    
+        <h1>GUAJAJARAS</h1>
+        <br>
+    
+</header>
+
+<div class="container">
+    <h3>Oriundos do tronco tupi, os guajajaras existentes moram no estado do Maranhão.</h3><br><br>
+
+    <h4 style="color: rgba(3, 34, 3, 0.608);">Os Guajajara são um dos povos indígenas mais numerosos do Brasil. Habitam mais de 10 Terras Indígenas na margem oriental da Amazônia, todas situadas no Maranhão. Sua história de mais de 380 anos de contato foi marcada tanto por aproximações com os brancos como por recusas totais, submissões, revoltas e grandes tragédias. A revolta de 1901 contra os missionários capuchinhos teve como resposta a última "guerra contra os índios" na história do Brasil.</h4><br>
+
+    <h2>Nome</h2><br>
+<p>
+    
+        Além de guajajara, este grupo tem uma outra autodenominação mais abrangente, Tenetehára, que inclui também os Tembé. guajajara significa "donos do cocar" e Tenetehára, "somos os seres humanos verdadeiros". Às vezes, os guajajara traduzemTenetehára por "índio", excluindo desta categoria os grupos Jê, como os Canela, que são chamados àwà ("selvagens, bravos"). Não se conhece com certeza a origem do nome guajajara, mas provavelmente foi dado aos Tenetehára pelos Tupinambá. Tanto entre os próprios índios quanto na literatura científica, atualmente a denominação guajajara é mais usada do que Tenetehára.
+</p>
+   
+    <h2>Língua</h2><br>
+       <p>A língua guajajara pertence à família tupi-guarani, sendo as línguas mais próximas o Asurini (do Tocantins), o Avá (Canoeiro), o Parakanã, o Suruí (do Pará), o Tapirapé e o Tembé, que lhe é muito semelhante. Os guajajara chamam sua língua de ze'egete ("a fala boa"). Ela é subdividida pelos lingüistas em quatro dialetos que são mutuamente inteligíveis, sem maiores complicações. Nas aldeias, o guajajara é falado como primeira língua, enquanto o português tem a função de língua franca, que é entendida pela maioria. A situação sociolingüística dos guajajara que moram nas cidades é desconhecida.</p>
+
+       <img src="imagens/guaja2.webp" height="500px" alt="">
+
+       <h2>Localização</h2><br>
+        <p>Todas as Terras Indígenas habitadas pelos guajajara estão situadas no centro do Maranhão, nas regiões dos rios Pindaré, Grajaú, Mearim e Zutiua. São cobertas pelas florestas altas da Amazônia e por matas de cerradão, mais baixas, sendo estas matas de transição entre as florestas amazônicas e os cerrados. Os guajajara nunca habitaram os cerrados vizinhos, região dos povos jê. Sua região mais antiga, historicamente conhecida, foi o médio rio Pindaré.</p>
+
+        <p>A partir do final do século XVIII e início do seguinte, expandiram seu território para as regiões dos rios Grajaú e Mearim, onde se estabeleceram pouco tempo antes da chegada dos brancos, disputando com vários grupos timbira as áreas de caça. Por volta de 1850, uma parte dos Tenetehára migrou para o norte e mais tarde passou a ser chamada de Tembé pelos regionais.</p>
+
+        <p>As Terras Indígenas Araribóia, Bacurizinho e Cana-Brava abrigam cerca de 85% da população guajajara [dados de 2002]. Em várias terras, eles não são os únicos habitantes indígenas: há grupos dos Guajá em Araribóia e Caru, dos Tabajara em Governador e Rio Pindaré e dos Guarani, Krenyê e Kokuiregatejê em Rio Pindaré. Em duas Terras Indígenas os Guajajara são minoria: em Governador, dos Gavião-Pukobyê, onde representam cerca de 36% dos habitantes, e em Krikatí, onde há uma comunidade cujos moradores não falam mais a língua indígena. Na Terra Indígena Geralda/Toco Preto, dos Kokuiregatejê, antigamente registrada como terra dos Guajajara, só morava um único Guajajara em 2000.</p>
+
+        <h2>Demografia</h2><br>
+        <p>O número exato dos guajajara é desconhecido, pois as estatísticas da Funai são incompletas, ignorando várias aldeias. Segundo os dados da Funai, completados pelos do autor, existiam pelo menos 13.100 em 2000 apenas nas terras indígenas. O número dos Guajajara que vivem em cidades como São Luís, Barra do Corda, Grajaú, Imperatriz ou Amarante, no entanto, é desconhecido e nem há estimativas sobre ele.</p>
+
+        <p>Mércio Gomes estimou sua população, com base em cálculos comparativos, em 3.000 para a época dos primeiros contatos com os brancos. Em 1942 Charles Wagley e Eduardo Galvão a estimaram em 2.000 indivíduos. Depois Gomes calculou 2.500, 3.000 e 4.300 para os anos de 1942, 1953 e 1975 respectivamente. Faltam números exatos do crescimento atual, que é na faixa de 2,5% a 3,0% ao ano. Também faltam estatísticas sobre as taxas atuais de mortalidade infantil e de adultos, que não parecem ser menores que as da população rural regional, que ainda são altas.</p>
+
+        <p>Não há estatísticas referentes às uniões interétnicas e nem a seus descendentes. A forma mais comum destes casamentos não é, como se podia esperar, entre homens brancos e mulheres indígenas, mas o oposto, como são os homens que emigram para as cidades com maior freqüência, e são as mulheres solteiras que representam um tipo de "capital social" para as famílias, porque podem atrair genros e, com isso, trabalhadores masculinos para o grupo familiar.</p>
+
+        <h2>Histórico do Contato</h2><br>
+        <p>Os Guajajara, ou Tenetehára, tiveram uma história de contato com os brancos marcada por resistência e exploração. O primeiro contato ocorreu em 1615 com uma expedição francesa, seguido por incursões escravagistas no século XVII. A instalação de missões jesuítas entre 1653 e 1755 ofereceu proteção, mas também trouxe servidão. Após a expulsão dos jesuítas, os Guajajara recuperaram parte da independência, mas foram progressivamente explorados no século XIX, enfrentando abusos e sistemática violência. O ápice da resistência foi a revolta de Alto Alegre, em 1901, liderada pelo cacique Cauiré Imana, contra a colonização dos capuchinhos, que resultou em grande repressão. Durante os anos 1960 e 1970, novos conflitos surgiram com a expansão de latifúndios e posseiros em suas terras, especialmente em Cana-Brava. Mesmo com a violência diminuindo, ainda existem tensões interétnicas com outros grupos, como os Canelas e os Guajá.</p>
+
+        <h2>Atividades Econômicas e Organização Social</h2><br>
+
+        <p>Os Guajajara, cuja principal atividade econômica é a lavoura, cultivam diversos produtos como mandioca, milho, feijão e abóbora. As roças são pequenas, variando entre 1,25 e 3,55 hectares por unidade familiar. Algumas aldeias possuem grandes roças comunais voltadas à comercialização de arroz e frutas. A pesca é comum nas aldeias ribeirinhas e, em algumas, açudes foram construídos para a pesca de subsistência e comercial. A caça tem diminuído, mas ainda é prática importante, especialmente com o controle das terras pelos próprios indígenas. Além disso, a coleta de produtos florestais, como mel, e a comercialização de artesanato, agricultura e até mesmo maconha, geram fontes de renda, mas também conflitos com a polícia.</p>
+
+        <p>A organização social é centrada em aldeias permanentes, que variam em tamanho e formato. O sistema de parentesco é flexível e as aldeias são organizadas em torno de famílias extensas, sendo a chefia muitas vezes instável e influenciada por fatores como relações com os brancos e capacidade de negociar com órgãos governamentais. A liderança é determinada tanto pela habilidade individual quanto pela base de apoio, o que torna a dinâmica política interna das aldeias complexa e, por vezes, marcada por rivalidades.</p><br><br>
+
+        <img src="imagens/guaja3.jpg" height="700px" alt=""><br><br><br>
+
+        <h3>Os Guajajara, com sua resistência ancestral e sabedoria inabalável, continuam a ser guardiões da floresta e das tradições, mantendo viva a luta por seu território e cultura diante dos desafios do mundo moderno.</h3><br><br>
+
+        
+        
+
+        <h4>Referências Bibliográficas:  https://pib.socioambiental.org/pt/Povo:Guajajara#:~:text=Os%20Guajajara%20s%C3%A3o%20um%20dos,Amaz%C3%B4nia%2C%20todas%20situadas%20no%20Maranh%C3%A3o. (acesso em 30/01/2025).</h4>
+       
+</div>
 </body>
 </html>
