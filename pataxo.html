@@ -4,13 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pataxo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Permanent+Marker&family=Reenie+Beanie&family=Satisfy&family=Sevillana&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: rgba(34, 139, 34, 0.499);
+        }
+        header {
+            height: 700px;
+            background-image: url(https://revistacaminhosgerais.com.br/wp-content/uploads/2023/04/INDIO-PATA-4-scaled.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            }
+
+        h2 {
+                text-align: center;
+            }
+            
+        h3 {
+                font-size: 38px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+        h4 {
+                font-size: 25px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+            
+    </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Página Inicial</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Povos Indígenas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="guarani.html">Guarani</a></li>
+                  <li><a class="dropdown-item" href="ticuna.html">Ticuna</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="caingangues.html">Caingangues</a></li>
+                  <li><a class="dropdown-item" href="macuxi.html">Macuxi</a></li>
+                  <li><a class="dropdown-item" href="yanomami.html">Yanomami</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="terena.html">Terena</a></li>
+                  <li><a class="dropdown-item" href="guajajara.html">Guajajara</a></li>
+                  <li><a class="dropdown-item" href="xavante.html">Xavante</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="potiguara.html">Potiguara</a></li>
+                  <li><a class="dropdown-item" href="pataxo.html">Pataxó</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Artes Indígenas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pintura.html">Pintura Corporal e Facial</a></li>
+                  <li><a class="dropdown-item" href="ceramica.html">Cerâmica e Olaria</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="cestaria.html">Cestaria e Tecelagem</a></li>
+                  <li><a class="dropdown-item" href="esculturas.html">Esculturas em Madeira e Pedra</a></li>
+                  <li><a class="dropdown-item" href="joiaseacessorios.html">Jóias e Acessórios</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="arteplumaria.html">Arte Plumária</a></li>
+                  <li><a class="dropdown-item" href="mascaras.html">Máscaras</a></li>
+                  <li><a class="dropdown-item" href="historiaselendas.html">Histórias e Lendas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                 
+                  
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<header>
     <h1>Pataxós</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fugiat sapiente quia vitae ab numquam quo itaque quas corporis repellendus architecto necessitatibus facere in sed deserunt, provident voluptatibus officia debitis.
-    Qui deleniti dolore optio suscipit rerum odio velit corrupti neque ducimus voluptas tempora perferendis dolorem, necessitatibus nulla quidem vel distinctio. Necessitatibus aspernatur natus rerum, corrupti non perspiciatis quo delectus repudiandae.
-    Placeat, ipsa officiis iure temporibus ducimus hic inventore repudiandae quas quos corrupti ex laboriosam quibusdam consequatur porro distinctio animi qui saepe doloribus officia cum asperiores. Laboriosam nulla repellendus eaque eos.
-    Provident cumque accusamus praesentium voluptatum suscipit atque facere similique, magni molestiae consequuntur tempore laudantium ducimus? At officia animi, excepturi voluptatibus vel dolores! Provident nihil consectetur aliquam quod eaque voluptates voluptatem.
-    Deserunt quo expedita architecto assumenda corporis. Commodi voluptas optio nostrum rem ab excepturi eveniet soluta in. Praesentium inventore cupiditate ullam sequi, nisi molestias dolorem magni aperiam veritatis natus assumenda sunt?</p>
+    
+</header>
+
+<div class="container">
+    
+
+    <h2>História dos Pataxós</h2>
+
+    <p>Os Pataxós são um povo indígena que habita principalmente a Terra Indígena Barra Velha do Monte Pascoal, no sul da Bahia, e tem uma forte conexão com a terra, cultura e espiritualidade. Sua história é marcada pela resistência desde o período colonial, quando sofreram ataques, escravização e perda de territórios para os colonizadores portugueses. Apesar das adversidades, conseguiram manter sua identidade cultural viva e, ao longo do século XX, intensificaram a luta pela demarcação de suas terras tradicionais. Hoje, além da Terra Indígena Barra Velha, ocupam outras áreas como Imbiriba, Coroa Vermelha e Aldeia Velha, enfrentando desafios como a pressão do turismo e do governo sobre suas terras. A resistência dos Pataxós continua a ser um símbolo de força, preservando suas tradições e valores.</p><br>
+
+    <h3>Da família linguística pataxó, esse grupo encontra-se nos estados da Bahia e Minas Gerais.</h3><br>
+
+    <p>Os pataxós são um povo indígena seminômade da Bahia, com uma população de cerca de 11.833 pessoas em 2010. Eles pertencem à família linguística maxakali, do tronco macro-jê. A maior parte do povo pataxó vive na Terra Indígena Barra Velha do Monte Pascoal, no sul de Porto Seguro, em um território de 20.000 hectares, entre os rios Caraíva e Corumbau. Além dessa área, há outros seis núcleos de povoamento: a Terra Indígena Imbiriba, Coroa Vermelha, Aldeia Velha, Mata Medonha, Cumuruxatiba (Cahy-Pequi) e Barra Velha, todos na região sul da Bahia. A Terra Indígena Coroa Vermelha, mais recente, é conhecida pela atividade artesanal e pelo turismo.</p><br>
+
+    <h2>Língua Falada</h2><br>
+    
+        <strong>
+            <p>O povo pataxó fala o português.</p>
+        </strong>
+
+        <p>A língua dos pataxós, persistiu até 1938. Após a chegada do SPI, houve um choque cultural, os índios eram obrigados a aprender a língua portuguesa, por esse motivo a língua da comunidade foi "perdida". Ainda existem anciões que recordam da sua antiga língua. </p>
+
+        <p>Desde 1998, um grupo de professores e pesquisadores do povo Pataxó (sul do estado da Bahia) passou a realizar, de forma autônoma, pesquisas documentais e de campo resgatando registros históricos e memórias dos anciões com o intuito de retomar sua língua originária, dada por extinta em meados do século passado. A língua retomada foi então batizada como "Patxohã" (língua de guerreiro). O ensino da língua tem sido feito em escolas.</p>
+
+        <p>Os Pataxó falam o português, mas usam um pequeno vocabulário resgatado de sua língua nativa, pertencente à família linguística maxakali. Um conjunto de famílias linguísticas diferentes constitui um tronco-linguístico que, nesse caso, é o Macro-Jê.</p>
+
+        <p>Resgatar um idioma é também uma forma de preservação da memória de um povo. Por isso, um grupo de pesquisadores Pataxó se dedica ao processo de retomada de sua língua. Para eles, trata-se de uma reconstrução coletiva!</p><br><br>
+
+        <img src="imagens/pataxotinho.webp" height="835px" alt=""><br><br>
+
+        <h2>Danças e Festas</h2><br>
+        <p>Na Aldeia Barra Velha os pataxós organizam luaus culturais, comemorações, casamento, e outras festividades conhecidas por eles por Kãdawe, algumas das quais são abertas aos turistas. Os índios jovens e em idade de casar cortejam as moças, jogando flores, e depois participam da corrida de toras. Passam três dias na mata, e ao fim desses três dias, eles deverão voltar com caça para provar que são guerreiros fortes e com capacidade de sustentar sua jokana ("mulher"). Finalmente, em uma grande festa com a participação de todos da aldeia, lideranças anciãs como o pajé realiza a cerimônia de casamento.</p><br><br>
+
+        <h2>Os rituais pataxó</h2><br>
+        <p>A forma com que nos casamos mudou muito com o tempo, não é? Com o povo Pataxó, também foi assim. Há relatos de que, antigamente, o casamento era realizado entre primos, que deveriam provar sua força com um desafio: os noivos em potencial precisavam carregar uma tora de madeira!</p>
+
+        <p>O Awê é outro ritual bastante tradicional entre o grupo indígena. O termo se refere a diferentes momentos de festa, marcados por coreografias específicas. O caium, bebida alcoólica produzida a partir de raízes e tubérculos, não pode faltar!</p><br><br>
+
+        <img src="imagens/pataxo2.jpg" height="800px" alt=""><br><br><br>
+       
+        <h3>"Somos os guardiões da nossa história e da nossa terra, onde a natureza e a cultura pataxó continuam a viver em nós, para sempre."</h3><br><br>
+
+        <h4>Referências Bibliográficas: https://www.ufmg.br/espacodoconhecimento/pelos-mundos-indigenas-pataxo/ e https://pt.wikipedia.org/wiki/Patax%C3%B3s  (acesso em 31/01/2025).</h4>
+
+        
+</div>
+    
 </body>
 </html>
