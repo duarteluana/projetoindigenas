@@ -5,18 +5,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Permanent+Marker&family=Reenie+Beanie&family=Satisfy&family=Sevillana&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: rgba(34, 139, 34, 0.499);
+        }
+        header {
+            height: 700px;
+            background-image: url(imagens/pintura.webp);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            }
+
+        h2 {
+                text-align: center;
+            }
+            
+        h3 {
+                font-size: 38px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+        h4 {
+                font-size: 25px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+            
+    </style>
 </head>
 <body>
-    <h1>Pintura</h1>
-    <h2>Pintura Corporal Indígena</h2>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Página Inicial</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Povos Indígenas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="guarani.html">Guarani</a></li>
+                  <li><a class="dropdown-item" href="ticuna.html">Ticuna</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="caingangues.html">Caingangues</a></li>
+                  <li><a class="dropdown-item" href="macuxi.html">Macuxi</a></li>
+                  <li><a class="dropdown-item" href="yanomami.html">Yanomami</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="terena.html">Terena</a></li>
+                  <li><a class="dropdown-item" href="guajajara.html">Guajajara</a></li>
+                  <li><a class="dropdown-item" href="xavante.html">Xavante</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="potiguara.html">Potiguara</a></li>
+                  <li><a class="dropdown-item" href="pataxo.html">Pataxó</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Artes Indígenas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pintura.html">Pintura Corporal e Facial</a></li>
+                  <li><a class="dropdown-item" href="ceramica.html">Cerâmica e Olaria</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="cestaria.html">Cestaria e Tecelagem</a></li>
+                  <li><a class="dropdown-item" href="esculturas.html">Esculturas em Madeira e Pedra</a></li>
+                  <li><a class="dropdown-item" href="joiaseacessorios.html">Jóias e Acessórios</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="arteplumaria.html">Arte Plumária</a></li>
+                  <li><a class="dropdown-item" href="mascaras.html">Máscaras</a></li>
+                  <li><a class="dropdown-item" href="historiaselendas.html">Histórias e Lendas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                 
+                  
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<header>
+    
+        <h1>PINTURA ÍNDIGENA</h1>
+        <br>
+    
+</header>
+   <div class="container">
+    <h2>Pintura corporal e facial</h2><br>
+    
+        <h4>
+            Os indígenas brasileiros têm uma tradição rica de pintura corporal e facial. Utilizando tintas naturais feitas de pigmentos vegetais, argilas e outros materiais, eles criam desenhos intricados e simbólicos em seus corpos, transmitindo identidade, proteção espiritual e celebrações rituais.
+            Essas pinturas também são feitas em tecidos de algodão e podem ser usadas como telas de decoração indígenas para ambientes, podendo colocar em molduras ou chassis internos.
+        </h4><br>
+    
+    <h2>Marcas de identidade cultural</h2><br>
+        <p>Provavelmente, você já deve ter visto que os indígenas possuem pinturas corporais características, mas já se perguntou o que elas significam? Os indígenas carregam no corpo e no rosto a identidade cultural de seu povo. As pinturas são as marcas de muitas etnias e são diferentes para cada ocasião. As tintas são feitas de elementos naturais, como urucum e jenipapo, e podem manter-se na pele por um período de 15 a 20 dias.</p>
 
-    <img src="imagens/f29222ea-5d93-4d19-9084-d06cca1adad6.jpeg" alt="">
-    <p>
-        A pintura corporal é usada em certos rituais e de acordo com o gênero e a idade. Indicam os grupos sociais ou a função de cada indivíduo na tribo. Muitas vezes estão associadas a rituais onde ocorrem danças indígenas.
-        As tintas usadas são naturais, ou seja, são feitas de plantas e frutos. O jenipapo é o fruto mais usado. Os índios o utilizam para escurecer a pele, enquanto o urucum dá o tom vermelho. Já o branco é conseguido através da tabatinga.
-        São as mulheres que pintam os corpos e os desenhos têm valor simbólico, retratando um momento ou um sentimento.
-        Os padrões gráficos mais elaborados são da cultura Kadiwéu. Já em 1560, essa pintura impactou os colonizadores, que ficaram deslumbrados com tamanha técnica e beleza.
-        Infelizmente, hoje em dia essa tribo não realiza mais essa pintura corporal, empregando os padrões em peças de cerâmicas para vender aos turistas.
-    </p>
+        <p>Segundo a mestranda em Antropologia Eliene Putira, que também é presidente da Associação dos Povos Indígenas Estudantes na UFPA, cada traço tem um significado. A pesquisadora ressalta que o significado das pinturas depende de cada etnia, ou seja, uma mesma pintura pode ter significados diferentes dependendo da etnia que a faz. Existem desenhos que demonstram sentimentos, desde os mais felizes até os de revolta e indignação pelos problemas enfrentados pelos povos.</p>
+
+        <p>“Muitas pessoas fazem pinturas, porque acham bonitas, mas nem sempre as pinturas bonitas significam alegria. Muitas vezes significam luto, tristeza e passagem”, alega Eliene Putira. A professora comenta que as pinturas são, ainda, a identidade dos povos e, por meio delas, podem identificar também à qual etnia pertencem. Outra característica representada pela arte são as peles de animais como jabutis, cobras, entre outros.</p><br>
+
+        <h2>Pintura e ancestralidade </h2><br>
+
+        <p>As pinturas feitas pelos indígenas carregam uma história com uma ancestralidade muito grande por trás de cada uma delas. Essa arte indígena está muito além do valor estético, ela obedece a  preceitos mágicos simbólicos e cosmológicos da sociedade que a representa.</p>
+
+        <p>“Lembro que, uma vez, pintei minha perna com a pintura indígena de outro povo e senti minha perna pesando muito. Comentei com a pessoa que estava fazendo a arte, e ela me disse que aquela pintura era forte, pois eu iria precisar de força”, relembra Putira. Isso ocorre, porque os grafismos indígenas são mais do que simples pinturas corporais, eles carregam consigo uma força extraordinária e honrosa.</p><br>
+
+
+        <h2>Pintura corporal</h2><br>
+        <p>A pintura corporal é utilizada pelos indígenas em momentos especiais, como na prática de rituais e de celebrações e varia de acordo com as ocasiões. Cada etnia indígena possui um tipo específico de pintura, que é representativa e identifica as características da tribo.</p>
+
+        <p>As tintas utilizadas na pintura corporal são obtidas a partir de elementos da natureza, como na extração de óleos de sementes e flores.</p>
+
+        <p>As pinturas possuem significados diferentes e podem representar os lugares ou funções ocupadas por cada membro da etnia, assim como podem ser usadas para representar os membros de uma mesma família.</p>
+
+        <p>Da mesma forma, as pinturas são diferentes para as mulheres e para os homens. As mulheres casadas, por exemplo, utilizam pinturas específicas para identificar seu compromisso perante outros membros da tribo.</p><br>
+
+        <img src="imagens/pinturacorporal.jpg" height="830px" alt=""><br><br>
+
+
+        <h2>Pintura Facial</h2><br>
+
+        <p>A pintura facial indígena brasileira é uma prática cultural profunda e simbólica, presente em várias etnias, como os Yanomami, Guarani, Xavante e Pataxó. A pintura é realizada com tintas naturais extraídas de plantas, sementes, carvão e outros recursos da natureza, e tem diferentes significados conforme a etnia. Pode ser usada para rituais de passagem, como o ingresso na vida adulta, para marcar eventos importantes ou para expressar identidade e pertencimento. As pinturas também podem ter funções espirituais, como proteção contra inimigos ou forças sobrenaturais, além de representar a conexão com os ancestrais e a natureza. Assim, a pintura facial é uma forma de arte e comunicação que mantém viva a cultura indígena.</p><br>
+
+        <img src="imagens/pinturafacial.webp" alt=""><br><br>
+
+        <h2>Marca Étnica</h2><br>
+        <p>A professora e antropóloga Jane Beltrão explica que, para os indígenas, se pintar ritualmente também é uma forma de expressar os mais delicados valores de sua cultura. Uma cultura rica que possui múltiplas formas de decorar corpos e artefatos, usando criativamente os mais diversos suportes – corpos, pedras, cerâmica entre tantos outros – para sua arte.</p>
+
+        <p>“A arte indígena é um sofisticado meio de comunicação estética, que informa aos demais sobre a diferença da qual emana força, autenticidade e valores das nações indígenas. Exibir as marcas tribais é indicar a resistência ao colonialismo, ao eurocentrismo e ao androcentrismo”, afirma a antropóloga. </p><br><br>
+
+
+        <h4>Referências Bibliográficas: https://www.portal.ufpa.br/index.php/ultimas-noticias2/9573-pinturas-corporais-indigenas-sao-marcas-de-identidade-cultural (acesso em 31/01/2025).</h4>
+       
+   </div>
 </body>
 </html>
