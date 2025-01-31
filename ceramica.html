@@ -3,62 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ceramica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Permanent+Marker&family=Reenie+Beanie&family=Satisfy&family=Sevillana&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: rgba(34, 139, 34, 0.499);
+        }
+        header {
+            height: 700px;
+            background-image: url(imagens/ceramica.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            }
+
+        h2 {
+                text-align: center;
+            }
+            
+        h3 {
+                font-size: 38px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+        h4 {
+                font-size: 25px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+        
+            
+    </style>
+
 </head>
 <body>
-    <h2>Cerâmica</h2>
-    <p>
-        A cerâmica é usada de muitas formas na cultura e na arte da maioria das tribos indígenas: para fabricação de objetos e utensílios ou como decoração.
-        A cerâmica é um dos materiais mais utilizados pelos indígenas, provavelmente devido à versatilidade do material. É utilizado na confecção de diversas utilidades domésticas, tais como jarros, panelas e vasilhas para armazenamento de alimentos.
-        O material é produzido pelos indígenas - quase sempre pelas mulheres - a partir de uma mistura feita de barro e de outros insumos naturais. Depois de prontos, os objetos são aquecidos para que se tornem mais resistentes.
-    </p>
-
-    <h2>Cerâmica Marajoara</h2>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Página Inicial</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Povos Indígenas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="guarani.html">Guarani</a></li>
+                  <li><a class="dropdown-item" href="ticuna.html">Ticuna</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="caingangues.html">Caingangues</a></li>
+                  <li><a class="dropdown-item" href="macuxi.html">Macuxi</a></li>
+                  <li><a class="dropdown-item" href="yanomami.html">Yanomami</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="terena.html">Terena</a></li>
+                  <li><a class="dropdown-item" href="guajajara.html">Guajajara</a></li>
+                  <li><a class="dropdown-item" href="xavante.html">Xavante</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="potiguara.html">Potiguara</a></li>
+                  <li><a class="dropdown-item" href="pataxo.html">Pataxó</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Artes Indígenas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pintura.html">Pintura Corporal e Facial</a></li>
+                  <li><a class="dropdown-item" href="ceramica.html">Cerâmica e Olaria</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="cestaria.html">Cestaria e Tecelagem</a></li>
+                  <li><a class="dropdown-item" href="esculturas.html">Esculturas em Madeira e Pedra</a></li>
+                  <li><a class="dropdown-item" href="joiaseacessorios.html">Jóias e Acessórios</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="arteplumaria.html">Arte Plumária</a></li>
+                  <li><a class="dropdown-item" href="mascaras.html">Máscaras</a></li>
+                  <li><a class="dropdown-item" href="historiaselendas.html">Histórias e Lendas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                 
+                  
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<header>
     
-       <p>
-           A cerâmica Marajoara é produzida pelos indígenas que habitavam inicialmente a Ilha de Marajó, região do Rio Amazonas, no estado do Pará.
-           É considerada uma das produções de cerâmica mais antigas do país e ainda hoje os indígenas desta região mantêm a cultura da produção da cerâmica Marajoara.
-           São caracterizadas pelo uso frequente de pinturas com relevo em cores quentes e terrosas
-       </p>
+        <h1>CERÂMICA E OLARIA</h1>
+        <br>
+    
+</header>
 
-       A cerâmica marajoara, uma expressão artística de profunda significância cultural e histórica, reflete a habilidade e a criatividade dos povos que habitaram a Ilha do Marajó. Esta forma de arte é distinta pela sua dualidade funcional e estética, onde as peças utilitárias são marcadas por uma simplicidade elegante, enquanto os objetos cerimoniais exibem uma decoração intricada e simbólica.
-
-       <p>
-           As peças utilitárias, que incluíam tigelas e vasos, eram essenciais no cotidiano das comunidades indígenas, atendendo às necessidades básicas de armazenamento e preparo de alimentos. Em contraste, a cerâmica cerimonial era frequentemente utilizada em rituais importantes, como os funerários e de iniciação feminina. Essas peças eram adornadas com desenhos que representavam não apenas a fauna amazônica, mas também figuras humanas e elementos associados à fertilidade e à espiritualidade.
-           O processo de criação dessas obras de arte era minucioso e começava com a coleta cuidadosa do barro nas margens dos igarapés. Após ser purificado e moldado, o barro era transformado em objetos que recebiam incisões detalhadas e pinturas feitas com pigmentos naturais. O acabamento final conferia às peças uma qualidade singular, com relevos que destacavam os motivos decorativos em um jogo de luz e sombra.
-           Hoje em dia, a tradição da cerâmica marajoara é mantida viva por comunidades locais que buscam preservar esse legado ancestral. Artífices contemporâneos se inspiram nos padrões históricos para criar novas peças que dialogam com o passado, mas também refletem as realidades atuais. Assim, a cerâmica marajoara continua sendo um símbolo vibrante da identidade cultural brasileira, unindo tradição e modernidade em cada peça confeccionada.
-       </p>
-
-       <img src="https://portalamazonia.com/wp-content/uploads/2021/09/b2ap3_medium_cer-marajo.jpeg" alt="">
-       <img src="https://www.palavraencantada.com.br/wp-content/uploads/2024/02/Arte-Ceramica-Indigena-Tradicao-e-Modernidade-1-4.webp" height="350px" alt="">
-       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Burian_urn%2C_AD_1000-1250%2C_Marajoara_culture_-_AMNH_-_DSC06177_b.jpg/1200px-Burian_urn%2C_AD_1000-1250%2C_Marajoara_culture_-_AMNH_-_DSC06177_b.jpg" height="400px" alt="">
-
-
-       <h2>A cerâmica Santarena</h2>
-       <p>
-           A cerâmica santarena: refinamento e ornamentação em relevo
-           A arte cerâmica indígena, particularmente a cerâmica santarena, é um patrimônio cultural que reflete tanto a tradição quanto a modernidade das comunidades que a produzem. Originária da região de Santarém, no estado do Pará, essa forma de arte se destaca por seu alto grau de refinamento e uma complexa ornamentação em relevo. As peças são notáveis pela presença de figuras humanas, conhecidas como cariátides, que remetem às colunas gregas homônimas, mas com uma interpretação única que incorpora elementos da estética local.
-           Essas esculturas cerâmicas são divididas em três partes distintas: a base, as cariátides e o recipiente superior. A base, geralmente em forma de carretel, é ornada com desenhos geométricos meticulosamente aplicados. As cariátides, por sua vez, não são meros adornos; elas desempenham uma função estrutural ao sustentar o recipiente superior da peça. Este último é frequentemente uma bacia semiesférica, igualmente decorada com motivos geométricos e figuras antropo-zoomorfas, que podem ter significados simbólicos ainda não totalmente decifrados pelos pesquisadores.
-           A técnica empregada na confecção desses vasos é tão intrincada quanto impressionante. Os artesãos utilizam finas camadas de argila que são cuidadosamente trabalhadas e recortadas para criar os detalhes em relevo. Além disso, pigmentos orgânicos e inorgânicos são aplicados para dar cor às peças, enquanto incisões retilíneas e espiraladas adicionam profundidade e textura à decoração.
-           Além dos vasos de cariátides, a cerâmica santarena abrange uma ampla gama de objetos, incluindo vasos com gargalos distintos, estatuetas representativas e cachimbos ricamente ornamentados. A presença marcante das figuras humanas sugere um profundo respeito e valorização da figura humana nessa cultura, potencialmente ligada a rituais e tradições orais que são transmitidos durante cerimônias coletivas. Essa forma de arte cerâmica não é apenas uma expressão estética; ela representa uma conexão espiritual com os antepassados e guias espirituais da comunidade, evidenciando uma evolução que transcende a utilidade cotidiana para alcançar um status de obra de arte especial.
-       </p>
-
-       <img src="https://www.gentedeopiniao.com.br/uploads/noticias/2020/06/05/3sj8azebhj8ks.jpg" alt="">
-       <img src="https://www.museunacional.ufrj.br/dir/exposicoes/arqueologia/img/arqueologia_brasileira/483-1_thumb.jpg" alt="">
-       <img src="https://www.museunacional.ufrj.br/dir/exposicoes/arqueologia/img/arqueologia_brasileira/480-1_thumb.jpg" height="400px" alt="">
-
-       <h2>Cerâmica Waurá</h2>
-
-       <p> O povo Waurá se autodenomina Waujá e habita o Parque Indígena do Xingu (MT) e destaca-se pela singularidade de sua cerâmica, pintada com pigmentos naturais pelas artesãs da etnia.
-        De acordo com a fascinante cosmologia desse povo, foi uma grande cobra-canoa (Kamalu Hai) que os ensinou a arte oleira, vindo até a comunidade com panelas pintadas nas costas e, antes de ir embora, defecando argila no rio Batovi. Essas cerâmicas em forma de animais ou usadas como utensílios domésticos materializam o vínculo entre os animais, as coisas, os humanos e os seres extra-humanos contado no Mito da Grande Cobra-canoa.
+    <div class="container">
+        <h2>Cerâmica e Olaria</h2>
+        <h3>A cerâmica indígena brasileira é uma tradição milenar, feita artesanalmente com argila local. Cada grupo utiliza técnicas próprias para criar utensílios, instrumentos e objetos ritualísticos, frequentemente decorados com padrões que representam sua identidade cultural. A cerâmica tem papel essencial na vida cotidiana e na preservação de saberes ancestrais, além de ser uma importante fonte de troca entre comunidades. Apesar de influências externas, muitas etnias mantêm suas práticas tradicionais de olaria.</h3><br><br>
         
-        Medidas aproximadas: altura 11 cm x diâmetro 18,5 cm x circunferência 67 cm.</p>
+        
+        <h2>Cerâmica Marajoara</h2><br>
+ 
+        <p>A cerâmica marajoara, produzida pelos índios do Marajó entre 1000 e 1250 d.C., é famosa por seus objetos utilitários e decorativos, como urnas funerárias, vasilhas, estatuetas e brinquedos. Os artefatos apresentam uma grande variedade de formas e padrões de decoração, incluindo figuras antropomórficas e zoomórficas. A cerâmica é caracterizada pelo uso de pintura vermelha ou preta sobre fundo branco, com técnicas que combinam cores naturais como urucum, caulim e jenipapo. Um destaque é o uso de técnicas como o champlevé, que cria desenhos em relevo. Além disso, os artefatos eram temperados com materiais para aumentar sua resistência, como cinzas e conchas. As peças eram queimadas em fogueiras a céu aberto e envernizadas para um acabamento lustroso. Os objetos mais elaborados eram usados em rituais e funerais, enquanto os do cotidiano tinham decoração mais simples. A cerâmica marajoara inspirou a arte brasileira, mas seu resgate é dificultado por inundações e roubos.</p><br>
+            
+                
+        <img src="imagens/marajo.jpeg" height="940px" alt=""><br><br><br><img src="" alt="">
+                
+        <h2>A cerâmica Tapajônica</h2>
+           <p>
+            A cerâmica tapajônica é de fato o artesanato mais antigo do povo da região do Tapajós, alguns testes realizados nos EUA pela pesquisadora Anna Roosevelt, comprovam que foram produzidas há mais de seis mil anos, desde esse tempo os habitantes desta região já faziam peças como vaso de gargalo, vaso de cariátides e outros utensílios de suas necessidades.
+            As cerâmicas tapajônicas têm por características os elementos antropozoomórficos (mistura de corpos humanos e animais ) que exaltam a fauna brasileira.
+            A junção de argila e cauxixi (um tipo de esponja presente nos rios da região), promove na cerâmica artesanal características similares à porcelana como durabilidade e leveza.
+            
+            </p><br>
+           
+           <img src="imagens/tapajo.jpg" height="710px" alt=""><br><br>
+           
+           
+           <h2>Cerâmica Waurá</h2><br>
+           <p> O povo Waurá se autodenomina Waujá e habita o Parque Indígena do Xingu (MT) e destaca-se pela singularidade de sua cerâmica, pintada com pigmentos naturais pelas artesãs da etnia.
+            De acordo com a fascinante cosmologia desse povo, foi uma grande cobra-canoa (Kamalu Hai) que os ensinou a arte oleira, vindo até a comunidade com panelas pintadas nas costas e, antes de ir embora, defecando argila no rio Batovi. Essas cerâmicas em forma de animais ou usadas como utensílios domésticos materializam o vínculo entre os animais, as coisas, os humanos e os seres extra-humanos contado no Mito da Grande Cobra-canoa.
+        
+           </p><br>
+          
+            <img src="imagens/onca.webp"  alt=""><br><br>
 
-        <p>Cerâmica Waurá original com pigmentos naturais de genipapo e urucum</p>
+            <h3>A Cerâmica e Olaria indígena é o elo entre o passado e o presente, onde a terra se transforma em arte, e cada peça carrega o conhecimento e a sabedoria dos ancestrais.</h3><br>
 
-        <img src="https://cdn.vnda.com.br/950x/tucumbrasil/2022/06/29/9_6_3_359_Cermicas_indigenas_0601.jpg?v=1656505040" height="400px" alt="">
-        <img src="https://acdn.mitiendanube.com/stores/003/775/792/products/img_3136-eaf39c0f943794d93117286913464603-320-0.webp" alt="">
-        <img src="https://acdn.mitiendanube.com/stores/003/775/792/products/img_3111-ebf6bbc4df76d53dc417286889830191-320-0.webp" alt="">
-        <img src="https://acdn.mitiendanube.com/stores/003/775/792/products/photoroom_20240201_152654-3f34b49f87b9181a8817068182399290-320-0.webp" alt="">
+            <h4>Referências Bibliográficas: https://www.palavraencantada.com.br/arte-ceramica-indigena-tradicao-e-modernidade/ (acesso em 31/01/2025).</h4>
+           
+    </div>
 </body>
 </html>
