@@ -4,60 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Permanent+Marker&family=Reenie+Beanie&family=Satisfy&family=Sevillana&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: rgba(34, 139, 34, 0.499);
+        }
+        header {
+            height: 700px;
+            background-image: url(imagens/mascaras.webp);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            }
+
+        h2 {
+                text-align: center;
+            }
+
+        h3 {
+                font-size: 38px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+        h4 {
+                font-size: 25px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+            
+    </style>
 </head>
 <body>
-    <h1>Arte Plumária</h1>
-    <p>A arte plumária é produzida com plumas e penas de diversos animais. É bastante antiga, mas ainda é muito cultuada pelos indígenas brasileiros.</p>
-<p>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Página Inicial</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Povos Indígenas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="guarani.html">Guarani</a></li>
+                  <li><a class="dropdown-item" href="ticuna.html">Ticuna</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="caingangues.html">Caingangues</a></li>
+                  <li><a class="dropdown-item" href="macuxi.html">Macuxi</a></li>
+                  <li><a class="dropdown-item" href="yanomami.html">Yanomami</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="terena.html">Terena</a></li>
+                  <li><a class="dropdown-item" href="guajajara.html">Guajajara</a></li>
+                  <li><a class="dropdown-item" href="xavante.html">Xavante</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="potiguara.html">Potiguara</a></li>
+                  <li><a class="dropdown-item" href="pataxo.html">Pataxó</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Artes Indígenas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pintura.html">Pintura Corporal e Facial</a></li>
+                  <li><a class="dropdown-item" href="ceramica.html">Cerâmica e Olaria</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="cestaria.html">Cestaria e Tecelagem</a></li>
+                  <li><a class="dropdown-item" href="esculturas.html">Esculturas em Madeira e Pedra</a></li>
+                  <li><a class="dropdown-item" href="joiaseacessorios.html">Jóias e Acessórios</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="arteplumaria.html">Máscaras e Arte Plumária</a></li>
+                  <li><a class="dropdown-item" href="historiaselendas.html">Histórias e Lendas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                 
+                  
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<header>
     
-        Os objetos de arte plumárias são feitos principalmente para uso como adornos em adereços usados em momentos de festividades ou em rituais de luta. Os cocares são o exemplo mais conhecido, mas a arte plumária também pode ser utilizada para a fabricação de outros acessórios, armas ou mesmo instrumentos.
+        <h1>MÁSCARAS E ARTE PLUMÁRIA</h1>
+        <br>
     
-        Assim como acontece com a pintura corporal, a arte plumária também pode representar diferentes etnias ou papéis ocupados dentro da tribo, como uma espécie de marcação hierárquica. Por exemplo, os cocares maiores e mais bem adornados são os utilizados pelos caciques, os chefes e mais antigos membros de uma tribo.
-</p>
+</header>
 
-<p>A Arte Plumária designa um tipo de arte feita exclusivamente com penas e plumas de aves.
+<div class="container">
+    <h2>Máscaras</h2>
 
-    Essa arte repleta de simbolismo foi e continua sendo uma das criações estéticas mais desenvolvidas pelas culturas indígenas, sobretudo no Brasil.</p>
+     <h4>Repletas de significados, as máscaras vão muito além da nossa imaginação quando as contemplamos: são representações de forças da natureza, da pesca, das colheitas, dos animais lendários, dos ancestrais, bem como de cerimônias específicas e festejos.</h4>
 
-    <img src="https://static.todamateria.com.br/upload/55/10/55109f4037f92-arte-plumaria.jpg" alt="">
+     <h2>Máscara Tamakó</h2>
 
-    <p>Os objetos confeccionados com penas e plumas de aves são utilizados por muitos povos indígenas durantes rituais ou como ornamentos.</p>
+        <p>Conta-se que os Wayana saíram para caçar e observaram um grande grupo de Tamakós (espíritos) que comiam frutinhas. Eles voltaram no dia seguinte e havia um número ainda maior de espíritos. Então flecharam o menor Tamakó do grupo e um dos adultos comeu um dos índios, sendo os demais seguidos pelo bando até a aldeia. Para estabelecer a paz, o pajé prometeu aos Tamakós em uma canção, que estes não seriam mais flechados pela tribo. Como agradecimento, os Tamakós prometeram os proteger e, desde então, é realizada a Festa da Cumeeira, onde os Wayana vestem-se como Tamakós</p>
 
-    <p>Assim, a arte plumária representa uma técnica muito antiga repleta de significados, sendo um artesanato essencialmente feito de:
+    <h2>Máscara da Festa da Menina Nova - Povo Maguta</h2>
 
-    penas: retiradas das asas e da calda das aves, considerada as maiores;
-    plumas: retiradas das costas e peito das aves sendo arredondadas, menores e mais largas;
-    plumagem de aves: menores e de diversos tamanhos, elas são retiradas dos pescoços, costas e abdômen das aves.</p>
+        <p>Trata-se de um ritual de iniciação, em que a menina é colocada em um "quarto de isolamento". Passado esse tempo, acontece o ritual, quando a menina é enfeitada com colares cruzados sobre os seios e tem a cabeça preparada para a retirada dos cabelos com o uso de uma cera preparada com formigas (uma espécie de anestésico natural). Ao sair do quarto, o tio retira-lhe a primeira mecha de cabelo, enquanto os homens da tribo dançam em torno do local do isolamento usando as máscaras confeccionadas de entrecasca, uma fibra natural, cuja representação varia entre animais e demônios.</p>
 
-    Arte Plumária dos Indígenas Brasileiros
-    No Brasil, existem muitas culturas indígenas, embora desde a chegada dos portugueses, no século XVI, o número tem diminuído consideravelmente, devido ao extermínio desses povos
+    <h2>Máscara da Festa para o apapaatai</h2>
 
-    Estima-se que antes da chegada dos europeus existia no território brasileiro cerca de 5 milhões de habitantes dos povos originários, contudo, hoje não chegam a 0,5% da população brasileira.
+        <p>Utilizadas pelos Waujá, povo que habita a bacia do rio Xingu, no Mato Grosso, nas festas do apapaatai - espírito causador de doenças. Para promover a cura nos casos mais graves, é necessária a organização de uma festa, que exige o preparo de vários objetos nos rituais, dentre os quais as máscaras. Esta festa se constitui em uma aliança entre o humano adoentado e o espírito causador. Na crença Waujá, o apapaatai, ávido por comida e festa, ao receber a homenagem do doente, promoverá a cura e o protegerá de outros ataques de diferentes espíritos. As máscaras devem ser guardadas até que se desintegrem ou que a hora do ritual de destruição da máscara chegue.</p><br>
 
-    Muitos objetos artísticos e utilitários dessas etnias foram trocados (escambo), de forma que os exemplares eram considerados pelos europeus troféus de conquista.
+     <img src="imagens/mascaras2.jpg" height="740px" alt=""><br><br>
 
-    <p>Encontramos populações indígenas por todas as partes do país. Temos, aproximadamente, 305 diferentes grupos étnicos, sendo que os mais conhecidos são: guaranis, tupinambás, kaxuyana, karajás, guajajaras, xingu, xavante, mundurucu, kaapor, yanomamis, kaiapós, bororó, dentre outras.</p>
+        <h2>Arte Plumária</h2>
+        <h4>A arte plumária indígena brasileira usa penas de aves para criar adornos simbólicos, como cocares e colares, que representam a conexão com a natureza e os espíritos. Essa tradição ancestral é transmitida através das gerações, refletindo a identidade e o status dos povos indígenas.</h4>
 
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_cHPAONeMu4Us54fRIdAC_uEvFcFh_f045ChI89wtYzIcOnsJsM0QcOD3Zh4h5XlmOx7OLtNQuTHOK7EpFN6kuWhxKavzbq5tXEqsalBDRqfuZ_SCjFcXvyL6c9cfvoeLTi74S7DyTdTZ/s1600/Diademas+e+Brincos.jpg" height="400px" alt="">
+     <h2>Expressão Cultural</h2>
+         <p>A arte plumária indígena brasileira é uma expressão cultural marcante, composta por objetos feitos com penas de aves, usados como adornos no corpo, tanto em contextos cotidianos quanto rituais. Essa arte, que chamou a atenção dos europeus desde o século XVI, era vista como um troféu da conquista e como uma curiosidade exótica. Com o tempo, passou a ser reconhecida como uma linguagem visual complexa e significativa, representando as culturas indígenas. No entanto, a aculturação e a comercialização de seus produtos turísticos ameaçam preservar sua riqueza e significado, colocando em risco a continuidade dessa tradição essencial para a identidade indígena.</p>
 
-    <p>radicionalmente os índios vivem nas florestas e assim, retiram de lá tudo o que necessitam para viver (construir moradias, objetos, instrumentos, comidas, etc.) e realizar seus rituais. Embora existam muitas indígenas vivendo no meio urbano.
+         <h2>Características</h2>
 
-        Assim, vale observar que muitas tradições indígenas no país utilizam a arte plumária, embora cada uma apresente uma técnica e estilo específico. Um dos povos no Brasil que se destaca na arte de confecção de adornos plumários são os Urubus-Kaapor.
-        
-        Na produção, geralmente as penas são amarradas umas às outras e muitas delas são associados a outros materiais, tal qual fibras vegetais, madeiras, couro de animais, folhas e taquaras.
-        
-        A arte plumária é uma arte muito colorida. Várias etnias, além de utilizarem as penas nas cores do próprio pássaro, utilizam técnicas de tingimento, conhecida como “tapiragem”. Ou seja, a transformação da cor da pena.
-        
-        De tal modo, utilizam essa arte com funções socioculturais, baseadas nos momentos ritualísticos e cerimoniais, de forma a indicar a hierarquia social, gênero, idade; ou simplesmente como objetos utilitários - como cestos, armas e instrumentos - e de adorno corporal como máscaras, cocares, mantos, colares, coroas, pulseiras, braceletes e brincos.
-        
-        Geralmente são os homens que realizam a coleta e a confecção desses materiais (caça, seleção e tingimento), além de serem os que mais utilizam a arte plumária nos ritos cerimoniais.</p>
+         <p>A arte plumária indígena brasileira é uma expressão cultural ancestral que utiliza penas de aves para criar adornos, usados tanto em rituais quanto no cotidiano. Representa uma forma de comunicação, refletindo ritos de passagem, identidade e prestígio. Presentes em diversas etnias como Kayapó, Karajá e Xavante, essas peças variam em técnicas, materiais e formas. A arte é frequentemente associada a rituais, onde a plumagem transforma a aparência de quem a usa. Tradicionalmente, é uma atividade dos homens, que envolve caça, preparação das penas e fixação por amarração ou resina. Embora tenha uma base folclórica, a arte plumária é uma criação única que transmite a identidade e os valores dos povos indígenas.</p>
 
-        <img src="https://cdnm.westwing.com.br/glossary/uploads/br/2015/05/17132120/indigena-com-cocar-de-plumas-e-colar-e-pintura-facial-wsimag-c-a6053-1.jpg" alt="">
+     <img src="imagens/arteplumaria.webp" height="700px" alt=""><br><br>
 
-        <p>Também possuem o propósito de ensinar a técnica aos mais jovens para passar a tradição.
+     <h3>Máscaras e arte plumária indígenas brasileiras são o véu que revela a alma de um povo, onde cada pena e cada traço contam histórias ancestrais e espirituais.</h3><br>
 
-        Outro ponto importante a destacar é o significado estético e o conceito de “arte” para as comunidades ocidentais. Tradicionalmente, os objetos que os indígenas produzem não são considerados artísticos, uma vez que são de uso cotidiano ou ritualístico.
-            
-        Atualmente, muitas etnias confeccionam diversos tipos de objetos artísticos para o comércio, a fim de conseguirem recursos financeiros para sua sobrevivência.</p>
+    <h4>Referências Bibliográficas: https://cultura.rs.gov.br/conheca-as-historias-por-tras-das-mascaras-indigenas e https://pt.wikipedia.org/wiki/Arte_plum%C3%A1ria_ind%C3%ADgena_brasileira(acesso em 01/02/2025).</h4>
+</div>
+   
+    
+
 </body>
 </html>
