@@ -96,3 +96,10 @@ footer > p {
     font-size: 30px;
     color: rgba(255, 255, 255, 0.827);
 }
+.footer2 {
+    color: rgba(255, 255, 255, 0.827);
+    font-family: "Reenie Beanie", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
