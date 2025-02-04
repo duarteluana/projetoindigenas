@@ -42,15 +42,15 @@ h1 {
 
   }
 
-  h2 {
+h2 {
     font-family: "Reenie Beanie", serif;
     font-weight: bolder;
     font-size: 85px;
     color: rgba(28, 95, 6, 0.827);
-  }
+ }
   
 
-header {
+ header {
     height: 700px;
     background-image: url(imagens/flexa.webp);
     background-size: cover;
@@ -58,7 +58,7 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
    
-}
+ }
 
  a {
    text-decoration: none;
