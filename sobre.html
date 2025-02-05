@@ -34,6 +34,31 @@
       width: 55%;
       padding-left: 180px;
     }
+    /* Media Query para telas médias (como tablets) */
+   @media screen and (max-width: 992px) {
+    .container {
+    flex-direction: column; 
+    align-items: center; 
+     }
+    .imagem {
+      width: 30%;
+      margin-bottom: 40px;
+      margin-right: auto;
+      
+
+      
+    }
+    .texto {
+      width: 80%;
+      padding-left: 0;
+      font-size: 25px;
+      color: white;
+    }
+    h1 {
+      color: forestgreen;
+      text-align: center;
+    }
+}
   </style>
 </head>
 
@@ -109,15 +134,13 @@
           </li>
 
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        
       </div>
     </div>
   </nav>
 
   <div class="container">
+   
     <div class="imagem"><img src="imagens/sobre.jpg" alt="pai e filha indígenas ornamentados se olhando"></div>
 
     <div class="texto">
@@ -150,6 +173,7 @@
       <p>Junte-se a nós na celebração dessa cultura vibrante e cheia de vida.</p>
     </div>
   </div>
+
 </body>
 
 </html>

@@ -118,6 +118,37 @@
       color: white;
 
     }
+    /* Media Query para telas médias (como tablets) */
+   @media screen and (max-width: 992px) {
+    .container {
+    flex-direction: column; 
+    align-items: center; 
+     }
+  
+    h1 {
+      
+      text-align: center;
+    }
+    .card {
+        width: 98%; 
+        margin-bottom: 20px; 
+        
+    }
+    .tucum {
+      height: 150px;
+    }
+    .torno {
+      height: 150px;
+    }
+    #barco {
+      display: none;
+    }
+    footer {
+      
+      height: 400px;
+    }
+
+}
   </style>
 </head>
 
@@ -327,7 +358,7 @@
       <div class="col-3">
         <div class="card">
           <img src="imagens/tornozeleira.webp" class="card-img-top" alt="tornozeleira indígena produzida com sementes naturais">
-          <div class="card-body">
+          <div class="card-body torno">
             <h5 class="card-title">Tornozeleira</h5>
             <p class="card-text">Sinta a natureza aos seus pés. <br>R$ 164,00 no PIX ou em 12x de R$ 13,66</p>
           </div>
@@ -336,7 +367,7 @@
       <div class="col-3">
         <div class="card">
           <img src="imagens/torno.webp" class="card-img-top" alt="tornozeleira indígena com sementes naturais">
-          <div class="card-body">
+          <div class="card-body tucum">
             <h5 class="card-title">Tucum</h5>
             <p class="card-text">Tornozeleiras feitas com matéria-prima e mão de obra brasileira. <br>R$ 164,00 no PIX
               ou em 12x de R$ 13,66</p>
@@ -357,8 +388,10 @@
       </form>
     </div><br><br><br>
 
-    <img src="https://img.socioambiental.org/d/769659-1/edit_5082183587_5bd627865b_b.jpg" height="630px"
-      alt="crianças indígenas em cima de um barco navegando pelo mar"><br><br><br><br>
+    <div id="barco">
+      <img src="https://img.socioambiental.org/d/769659-1/edit_5082183587_5bd627865b_b.jpg" height="630px"
+        alt="crianças indígenas em cima de um barco navegando pelo mar">
+    </div><br><br><br><br>
 
     <h2 style="color: white;">"Uaná: <br>Brilho que carrega histórias, beleza que vem da raiz."</h2>
     <br><br><br><br><br><br>
