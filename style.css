@@ -102,16 +102,29 @@ h2 {
 }
 
 
+footer a {
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
 
+footer a:hover {
+    color: #9c8f3f !important;
+    transform: translateX(5px);
+}
+
+footer h5 {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 28px;
+    border-bottom: 2px solid #9c8f3f;
+    padding-bottom: 5px;
+    display: inline-block;
+}
 
 footer {
-    margin-top: 180px;
-    height: 250px;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
-    background-color: rgba(29, 84, 29, 0.858);
+    background-color: rgba(29, 84, 29, 0.858) !important;
+    padding: 40px 0 !important;
 }
+
 
 footer > p {
     font-family: "Reenie Beanie", serif;
