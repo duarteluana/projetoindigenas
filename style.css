@@ -1,24 +1,53 @@
 * {
     margin: 0px;
     padding: 0px;
-    
+
 }
+
+.navbar-nav .nav-link {
+    color: #333;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item.show .nav-link {
+    color: #9c8f3f;
+    background-color: rgba(156, 143, 63, 0.1);
+}
+
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #333;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    color: #9c8f3f;
+    background-color: rgba(156, 143, 63, 0.1);
+}
+
 
 body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
+
 .container {
-   padding: 30px;
-   border-radius: 10px;
-   text-align: center;
-  
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+
 }
 
 .introducao {
-   
-   
+
+
     height: 400px;
     padding: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -26,7 +55,7 @@ body {
     border-radius: 20px;
 }
 
-.introducao > h3 {
+.introducao>h3 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     color: whitesmoke;
@@ -40,64 +69,121 @@ h1 {
     font-size: 90px;
     color: rgba(255, 255, 255, 0.827);
 
-  }
+}
 
 h2 {
     font-family: "Reenie Beanie", serif;
     font-weight: bolder;
     font-size: 85px;
     color: rgba(28, 95, 6, 0.827);
- }
-  
+}
 
- header {
+
+header {
     height: 700px;
     background-image: url(imagens/flexa.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-   
- }
 
- a {
-   text-decoration: none;
-   color: white;
-   font-size: 30px;
-   padding: auto;
-   margin: 10px;
-  
 }
 
-
-footer {
-    margin-top: 180px;
-    height: 250px;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+a {
+    text-decoration: none;
+    color: white;
     font-size: 30px;
-    background-color: rgba(29, 84, 29, 0.858);
+    padding: auto;
+    margin: 10px;
+
 }
 
-footer > p {
+.navbar-brand img {
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.footer-mobile-members {
+    font-family: "Reenie Beanie", serif; 
+}
+
+.footer-desktop-members {
+    font-family: "Reenie Beanie", serif;
+         
+}
+
+/*modificaçoes pra o footer /// */
+.footer {
+    background-color: rgba(29, 84, 29, 0.858);
+    padding: 2rem 0;
+    margin-top: 3rem;
+  }
+  
+  .footer-heading {
+    font-family: "Reenie Beanie", cursive;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid #9c8f3f;
+    display: inline-block;
+  }
+  
+  .footer-link {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    display: block;
+    padding: 0.25rem 0;
+  }
+  
+  .footer-link:hover {
+    color: #9c8f3f;
+    transform: translateX(5px);
+  }
+  
+  .footer-project-info {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+
+
+  /* Elementos pra telas maiores */
+.footer-full-content {
+    display: block;
+  }
+  
+  /* Elementos pra telas pequenas */
+  .footer-mobile-content {
+    display: none;
+  }
+
+footer>p {
     font-family: "Reenie Beanie", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 80px;
     color: rgba(255, 255, 255, 0.827);
 }
+
 .vaga {
     height: 540px;
     font-size: 18px;
     font-size: 19px;
 
 }
+
 .artes {
     height: 448px;
 }
+
 .lendas {
     height: 495px;
 }
+
 .menor {
     font-family: "Reenie Beanie", serif;
     font-weight: 400;
@@ -105,6 +191,7 @@ footer > p {
     font-size: 30px;
     color: rgba(255, 255, 255, 0.827);
 }
+
 .footer2 {
     color: rgba(255, 255, 255, 0.827);
     font-family: "Reenie Beanie", serif;
@@ -112,7 +199,8 @@ footer > p {
     font-style: normal;
     font-size: 50px;
 }
-.btn{
+
+.btn {
     color: white;
     background-color: forestgreen;
     font-family: "Reenie Beanie", serif;
@@ -121,6 +209,7 @@ footer > p {
     box-shadow: 5px rgb(0, 4, 128);
 
 }
+
 .btn:hover {
     background-color: rgb(133, 224, 133);
     color: rgb(11, 82, 11);
@@ -128,72 +217,358 @@ footer > p {
 
 
 /* Media Query para telas pequenas (como celulares) */
-@media screen and (max-width: 600px)  {
+@media screen and (max-width: 600px) {
     .introducao {
         height: 700px;
-        
+
     }
-    .introducao > h3 {
+
+    .introducao>h3 {
         font-size: 22px;
-       
+
     }
+
     .card {
-        width: 50%; 
-        margin-bottom: 50px; 
+        width: 50%;
+        margin-bottom: 50px;
         margin: 0 auto;
         margin-top: 20px;
-        
+
     }
-    
-   footer {
-    background-color: rgba(29, 84, 29, 0.858);
-    font-size: 10px;
-    height: 380px;
-   }
-    footer > p {
+
+   
+
+    footer>p {
         font-family: 10px;
     }
+
     .menor {
         display: none;
+        font-size: 0.8rem !important;
     }
+
+   
+    .footer {
+        padding: 1.5rem 0;
+      }
     
+      
+
+      .footer-desktop-content,
+      .footer-tablet-content {
+        display: none;
+      }
+    
+      .footer-mobile-content {
+        display: block;
+        text-align: center;
+      }
+    
+      .footer-mobile-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        text-align: center;
+      }
+    
+      .footer-mobile-section {
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 1rem;
+        border-radius: 8px;
+      }
+    
+      .footer-mobile-heading {
+        color: white;
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+        font-family: "Reenie Beanie", cursive;
+      }
+    
+      .footer-mobile-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+      }
+    
+      .footer-mobile-link {
+        color: white;
+        text-decoration: none;
+        font-size: 0.9rem;
+        padding: 0.3rem 0.6rem;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        transition: all 0.3s ease;
+      }
+    
+      .footer-mobile-link:hover,
+      .footer-mobile-link:focus {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #9c8f3f;
+      }
+    
+      .footer-mobile-info {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    
+      .footer-mobile-project {
+        color: rgba(255, 255, 255, 0.995);
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+    
+      .footer-mobile-members {
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        margin: 0;
+      }
+
 }
+
 /* Media Query para telas médias (como tablets) */
 @media screen and (min-width: 601px) and (max-width: 992px) {
     .introducao {
-        height: 580px; 
+        height: 580px;
     }
+
     .card {
-        width: 48%; 
-        margin-bottom: 20px; 
+        width: 48%;
+        margin-bottom: 20px;
     }
+
+    .card-text {
+        padding-bottom: 10%;
+
+    }
+
     .vaga {
         height: 516px;
         font-size: 18px;
-    
-    
+
+
     }
+
     .artes {
         height: 448px;
     }
+
     .lendas {
         height: 470px;
     }
-    footer {
-        color: rgba(255, 255, 255, 0.827);
-        font-family: "Reenie Beanie", serif;
-        font-weight: 30px;
-        font-style: normal;
-        font-size: 50px;
-       
-    }
+
+    
+
     .menor {
         display: none;
     }
+
+    .footer {
+        background-color: rgba(29, 84, 29, 0.858);
+        padding: 1.5rem 0;
+        margin-top: 3rem;
+      }
+      
+      /* Versiones del footer */
+      .footer-desktop-content {
+        display: block;
+      }
+      
+      .footer-tablet-content,
+      .footer-mobile-content {
+        display: none;
+      }
+
     
-}
+    
+      .footer-desktop-content,
+      .footer-mobile-content {
+        display: none;
+      }
+    
+      .footer-tablet-content {
+        display: block;
+      }
+    
+      .footer-tablet-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        text-align: center;
+        padding: 0 1rem;
+      }
+    
+      .footer-tablet-section {
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 1rem;
+        border-radius: 8px;
+      }
+    
+      .footer-tablet-heading {
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 0.75rem;
+        font-family: "Reenie Beanie", cursive;
+      }
+    
+      .footer-tablet-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    
+      .footer-tablet-link {
+        color: white;
+        text-decoration: none;
+        font-size: 0.9rem;
+        padding: 0.3rem;
+        transition: all 0.3s ease;
+      }
+    
+      .footer-tablet-link:hover {
+        color: #9c8f3f;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+      }
+    
+      .footer-tablet-info {
+        grid-column: 1 / -1;
+        text-align: center;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    
+      .footer-tablet-project {
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+    
+      .footer-tablet-members {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 1.2rem;
+        margin: 0;
+        font-family: "Reenie Beanie", cursive;
+
+      }
+    }
 
 /* Media Query para telas grandes (desktops) */
 @media screen and (min-width: 993px) {
-    
+    .card-text {
+        padding-bottom: 10%;
+
+    }
+    .footer-tablet-content,
+    .footer-mobile-content {
+      display: none;
+    }
+  
+    .footer-desktop-content {
+      display: block;
+    }
+  
+    .footer-desktop-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+  
+    .footer-desktop-section {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 1.5rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+  
+    .footer-desktop-section:hover {
+      background-color: rgba(255, 255, 255, 0.08);
+    }
+  
+    .footer-desktop-heading {
+      color: white;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      font-family: "Reenie Beanie", cursive;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #9c8f3f;
+      display: inline-block;
+    }
+  
+    .footer-desktop-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .footer-desktop-link {
+      color: rgba(255, 255, 255, 0.9);
+      text-decoration: none;
+      font-size: 0.95rem;
+      padding: 0.3rem;
+      transition: all 0.3s ease;
+      border-radius: 4px;
+    }
+  
+    .footer-desktop-link:hover {
+      color: #9c8f3f;
+      background-color: rgba(255, 255, 255, 0.1);
+      transform: translateX(5px);
+    }
+  
+    .footer-desktop-info {
+      grid-column: 1 / -1;
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  
+    .footer-desktop-home {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      display: inline-block;
+      padding: 0.5rem 1.5rem;
+      border-radius: 25px;
+      background-color: rgba(255, 255, 255, 0.1);
+      transition: all 0.3s ease;
+    }
+  
+    .footer-desktop-home:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #9c8f3f;
+    }
+  
+    .footer-desktop-project {
+      color: white;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .footer-desktop-members {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 2rem;
+      margin: 0;
+      padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .row-cols-md-2>* {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .card-text {
+        padding-bottom: 10%;
+
+    }
+
 }

@@ -56,7 +56,9 @@
       height: 100%;
       display: flex;
       flex-direction: column;
+      border-radius: 10px;
     }
+
 
     .card img {
       height: 500px;
@@ -119,119 +121,135 @@
 
     }
 
-  /* Media Query para telas pequenas (como celulares) */
-@media screen and (max-width: 600px) {
-  div.card-body {
-    flex-grow: 1; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-    padding: 10px;
-    box-sizing: border-box;
-   
-    min-height: 300px;
+    /* Media Query para telas pequenas (como celulares) */
+    @media screen and (max-width: 600px) {
+      div.card-body {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        box-sizing: border-box;
 
-  
-  }
-  header {
-  min-height: 600px; 
-  }
- 
-  .card {
-    width: 100% !important; 
-    margin: auto;
-    margin-bottom: 10px; 
-    padding: auto;
-    height: 100%;
-    min-height: 350px; 
-    display: flex;
-    flex-direction: column;
-  }
+        min-height: 300px;
 
- 
-  .card img {
-    
-    height: auto; 
-    object-fit: contain;  
-    width: 100%;
-  }
 
- 
-  .row {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;  
-    
-  }
+      }
 
-  h1, h2, h3 {
-    text-align: center;
-  }
- 
-  .card-body {
-    font-size: 14px; 
-  }
+      header {
+        min-height: 600px;
+      }
 
-  .newsletter-container {
-    width: 100%;
-    max-width: 350px;  
-    margin: 0 auto;
-  }
-  .torno {
-    display: none;
-  }
-  .tucum {
-    display: none;
-  }
-  .desaparece {
-    display: none;
-  }
-  .centraliza {
-    font-size: 72px;
-  }
-}
+      .card {
+        width: 100% !important;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: auto;
+        height: 100%;
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+      }
+
+
+      .card img {
+
+        height: auto;
+        object-fit: contain;
+        width: 100%;
+      }
+
+
+      .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      }
+
+      h1,
+      h2,
+      h3 {
+        text-align: center;
+      }
+
+      .card-body {
+        font-size: 14px;
+      }
+
+      .newsletter-container {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+      }
+
+      .torno {
+        display: none;
+      }
+
+      .tucum {
+        display: none;
+      }
+
+      .desaparece {
+        display: none;
+      }
+
+      .centraliza {
+        font-size: 72px;
+      }
+    }
 
     /* Media Query para telas médias (como tablets) */
-   @media screen and (max-width: 992px) {
-    .container {
-    flex-direction: column; 
-    align-items: center; 
-     }
-  
-    h1 {
-      
-      text-align: center;
-    }
-    .card {
-        width: 98%; 
-        margin-bottom: 20px; 
-        
-    }
-    .tucum {
-      height: 150px;
-    }
-    .torno {
-      height: 150px;
-    }
-    #barco {
-      display: none;
-    }
-    footer {
-      
-      height: 400px;
-    }
-    
+    @media screen and (max-width: 992px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
 
-}
+      h1 {
 
+        text-align: center;
+      }
+
+      .card {
+        width: 98%;
+        margin-bottom: 20px;
+
+      }
+
+      .tucum {
+        height: 150px;
+      }
+
+      .torno {
+        height: 150px;
+      }
+
+      #barco {
+        display: none;
+      }
+
+      
+
+
+    }
   </style>
+  <link rel="icon" type="image/x-icon" href="imagens/favicon.ico">
 </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Página Inicial</a>
+
+
+
+
+      <a class="navbar-brand" href="index.html">
+        <img src="imagens/logo.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-top">
+
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -363,21 +381,22 @@
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col-3">
         <div class="card">
-          <img src="imagens/colar.webp" class="card-img-top" alt="colar indígena de miçangas em amarelo, vermelho e preto">
-          <div class="card-body">
-            <h5 class="card-title">Manio</h5>
-            <p class="card-text">Colar de Miçanga Azul Vermelha e Amarela Povo Kayapó. <br>R$ 399,00 no PIX ou em 12x de
-              R$ 33,25</p>
-          </div>
+          <img src="imagens/colar.webp" class="card-img-top"
+            alt="colar indígena de miçangas em amarelo, vermelho e preto">
+
+          <h5 class="card-title">Manio</h5>
+          <p class="card-text">Colar de Miçanga Azul Vermelha e Amarela Povo Kayapó. <br>R$ 399,00 no PIX ou em 12x de
+            R$ 33,25</p>
+
         </div>
       </div>
       <div class="col-3">
         <div class="card">
           <img src="imagens/colar1.webp" alt="colar indígena de sementes de cor dourada">
-          <div class="card-body">
-            <h5 class="card-title">Manio</h5>
-            <p class="card-text">Colar Artesanal Sementes Povo Wayana. <br>R$ 399,00 no PIX ou em 12x de R$ 33,25</p>
-          </div>
+
+          <h5 class="card-title">Manio</h5>
+          <p class="card-text">Colar Artesanal Sementes Povo Wayana. <br>R$ 399,00 no PIX ou em 12x de R$ 33,25</p>
+
         </div><br><br>
         <h2 class="centraliza">Pulseiras</h2><br>
       </div><br>
@@ -386,22 +405,23 @@
 
       <div class="col-3">
         <div class="card">
-          <img src="imagens/pulseira.webp" class="card-img-top" alt="pulseira indígena em madeira de cor branca e preta">
-          <div class="card-body">
-            <h5 class="card-title">Manio</h5>
-            <p class="card-text">Pulseira Indígena de Madeira Povo Xakriabá. <br>R$ 199,00 no PIX ou em 12x de R$ 16,58
-            </p>
-          </div>
+          <img src="imagens/pulseira.webp" class="card-img-top"
+            alt="pulseira indígena em madeira de cor branca e preta">
+
+          <h5 class="card-title">Manio</h5>
+          <p class="card-text">Pulseira Indígena de Madeira Povo Xakriabá. <br>R$ 199,00 no PIX ou em 12x de R$ 16,58
+          </p>
+
         </div>
       </div>
       <div class="col-3">
         <div class="card">
           <img src="imagens/pulseira2.jpg" class="card-img-top" alt="pulseiras indígenas de miçangas coloridas ">
-          <div class="card-body">
-            <h5 class="card-title">togetherband</h5>
-            <p class="card-text">Pulseiras de Miçangas e Pedras Brasileiras. <br>R$ 199,00 no PIX ou em 12x de R$ 16,58
-            </p>
-          </div>
+
+          <h5 class="card-title">togetherband</h5>
+          <p class="card-text">Pulseiras de Miçangas e Pedras Brasileiras. <br>R$ 199,00 no PIX ou em 12x de R$ 16,58
+          </p>
+
         </div>
       </div>
     </div><br><br>
@@ -411,42 +431,43 @@
       <div class="col-3">
         <div class="card">
           <img src="imagens/brinco.webp" class="card-img-top" alt="brincos indígenas coloridos em tons verdes">
-          <div class="card-body">
-            <h5 class="card-title">Tucum</h5>
-            <p class="card-text">Os brincos mais lindos com cheiro de natureza. <br>R$ 299,00 no PIX ou em 12x de R$
-              24,91</p>
-          </div>
+
+          <h5 class="card-title">Tucum</h5>
+          <p class="card-text">Os brincos mais lindos com cheiro de natureza. <br>R$ 299,00 no PIX ou em 12x de R$
+            24,91</p>
+
         </div>
       </div>
       <div class="col-3">
         <div class="card">
           <img src="imagens/brinco2.webp" class="card-img-top" alt="brincos indígenas coloridos com figura de pássaros">
-          <div class="card-body">
-            <h5 class="card-title">Brincos Indígenas</h5>
-            <p class="card-text">Brincos feitos com Miçangas Brasileiras diretamente da Amazônia. <br>R$ 299,00 no PIX
-              ou em 12x de R$ 24,91</p>
-          </div>
+
+          <h5 class="card-title">Brincos Indígenas</h5>
+          <p class="card-text">Brincos feitos com Miçangas Brasileiras diretamente da Amazônia. <br>R$ 299,00 no PIX
+            ou em 12x de R$ 24,91</p>
+
         </div><br><br><br>
         <h2 class="desaparece">Tornozeleiras</h2><br>
       </div>
 
       <div class="col-3">
         <div class="card">
-          <img src="imagens/tornozeleira.webp" class="card-img-top" alt="tornozeleira indígena produzida com sementes naturais">
-          <div class="card-body torno">
-            <h5 class="card-title">Tornozeleira</h5>
-            <p class="card-text">Sinta a natureza aos seus pés. <br>R$ 164,00 no PIX ou em 12x de R$ 13,66</p>
-          </div>
+          <img src="imagens/tornozeleira.webp" class="card-img-top"
+            alt="tornozeleira indígena produzida com sementes naturais">
+
+          <h5 class="card-title">Tornozeleira</h5>
+          <p class="card-text">Sinta a natureza aos seus pés. <br>R$ 164,00 no PIX ou em 12x de R$ 13,66</p>
+
         </div>
       </div>
       <div class="col-3">
         <div class="card">
           <img src="imagens/torno.webp" class="card-img-top" alt="tornozeleira indígena com sementes naturais">
-          <div class="card-body tucum">
-            <h5 class="card-title">Tucum</h5>
-            <p class="card-text">Tornozeleiras feitas com matéria-prima e mão de obra brasileira. <br>R$ 164,00 no PIX
-              ou em 12x de R$ 13,66</p>
-          </div>
+
+          <h5 class="card-title">Tucum</h5>
+          <p class="card-text">Tornozeleiras feitas com matéria-prima e mão de obra brasileira. <br>R$ 164,00 no PIX
+            ou em 12x de R$ 13,66</p>
+
         </div>
       </div>
     </div><br><br><br>
@@ -478,10 +499,119 @@
 
 
   </div>
-  <footer><br>
-    <p class="footer2">Fotos tiradas de: https://www.manio.com.br/collections/colares-indigenas e
-      https://www.tucumbrasil.com/(acesso em 02/02/2025).</p>
-  </footer>
+  <footer class="footer">
+    <footer class="footer">
+        <!-- Versao Desktop -->
+        <div class="footer-desktop-content">
+            <div class="container">
+                <div class="footer-desktop-grid">
+                    <!-- Povos Indígenas -->
+                    <div class="footer-desktop-section">
+                        <h5 class="footer-desktop-heading">Povos Indígenas</h5>
+                        <div class="footer-desktop-links">
+                            <a href="guarani.html" class="footer-desktop-link">Guarani</a>
+                            <a href="ticuna.html" class="footer-desktop-link">Ticuna</a>
+                            <a href="caingangues.html" class="footer-desktop-link">Caingangues</a>
+                            <a href="yanomami.html" class="footer-desktop-link">Yanomami</a>
+                            <a href="xavante.html" class="footer-desktop-link">Xavante</a>
+                        </div>
+                    </div>
+    
+                    <!-- Artes Indígenas -->
+                    <div class="footer-desktop-section">
+                        <h5 class="footer-desktop-heading">Artes Indígenas</h5>
+                        <div class="footer-desktop-links">
+                            <a href="pintura.html" class="footer-desktop-link">Pintura Corporal</a>
+                            <a href="ceramica.html" class="footer-desktop-link">Cerâmica</a>
+                            <a href="cestaria.html" class="footer-desktop-link">Cestaria</a>
+                            <a href="arteplumaria.html" class="footer-desktop-link">Arte Plumária</a>
+                            <a href="esculturas.html" class="footer-desktop-link">Esculturas</a>
+                        </div>
+                    </div>
+    
+                    <!-- UANÁ Joias -->
+                    <div class="footer-desktop-section">
+                        <h5 class="footer-desktop-heading">UANÁ Joias</h5>
+                        <div class="footer-desktop-links">
+                            <a href="uana.html#colares" class="footer-desktop-link">Colares</a>
+                            <a href="uana.html#pulseiras" class="footer-desktop-link">Pulseiras</a>
+                            <a href="uana.html#brincos" class="footer-desktop-link">Brincos</a>
+                            <a href="uana.html#tornozeleiras" class="footer-desktop-link">Tornozeleiras</a>
+                            <a href="uana.html#novidades" class="footer-desktop-link">Newsletter</a>
+                        </div>
+                    </div>
+    
+                    <!-- Contato -->
+                    <div class="footer-desktop-section">
+                        <h5 class="footer-desktop-heading">Contato</h5>
+                        <div class="footer-desktop-links">
+                            <a href="sobre.html" class="footer-desktop-link">Sobre Nós</a>
+                            <a href="mailto:contato@arteindigenabr.com" class="footer-desktop-link">Email</a>
+                            <span class="footer-desktop-link">(91) 9695-99439</span>
+                        </div>
+                    </div>
+    
+                    <!-- Navegacao e Info -->
+                    <div class="footer-desktop-info">
+                        <div class="footer-nav-links">
+                            <a href="index.html" class="footer-nav-link">Home</a>
+                            <a href="sobre.html" class="footer-nav-link">Sobre Nós</a>
+                            <a href="uana.html" class="footer-nav-link">UANÁ Joias</a>
+                        </div>
+                        <p class="footer-desktop-project">Projeto Recode: Squad 38</p>
+                        <p class="footer-desktop-members">Membros: Luana Duarte, Jesus Alfredo Blanco Blondell e Antônio Ferreira Borges Damasceno</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Versao Tablet -->
+    <div class="footer-tablet-content">
+        <div class="container">
+            <div class="footer-tablet-grid">
+                <!-- Principal -->
+                <div class="footer-tablet-section">
+                    <h5 class="footer-tablet-heading">Navegação</h5>
+                    <div class="footer-tablet-links">
+                        <a href="index.html" class="footer-tablet-link">Home</a>
+                        <a href="sobre.html" class="footer-tablet-link">Sobre Nós</a>
+                        <a href="uana.html" class="footer-tablet-link">UANÁ Joias</a>
+                    </div>
+                </div>
+
+                <!-- Arte e Cultura -->
+                <div class="footer-tablet-section">
+                    <h5 class="footer-tablet-heading">Arte & Cultura</h5>
+                    <div class="footer-tablet-links">
+                        <a href="arteplumaria.html" class="footer-tablet-link">Arte Plumária</a>
+                        <a href="ceramica.html" class="footer-tablet-link">Cerâmica</a>
+                        <a href="historiaselendas.html" class="footer-tablet-link">Histórias e Lendas</a>
+                    </div>
+                </div>
+
+                <!-- Informacao do Projecto -->
+                <div class="footer-tablet-info">
+                    <p class="footer-tablet-project">Projeto Recode: Squad 38</p>
+                    <p class="footer-tablet-members">Membros: Luana Duarte, Jesus Alfredo Blanco Blondell e Antônio Ferreira Borges Damasceno</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-mobile-content">
+        <div class="container">
+            <nav class="footer-mobile-nav">
+                <a href="index.html" class="footer-mobile-link">Home</a>
+                <a href="sobre.html" class="footer-mobile-link">Sobre Nós</a>
+                <a href="uana.html" class="footer-mobile-link">UANÁ Joias</a>
+            </nav>
+            <div class="footer-mobile-info">
+                <p class="footer-mobile-project">Projeto Recode Squad 38</p>
+                <p class="footer-mobile-members">Membros: Luana Duarte, Jesus Alfredo Blanco Blondell e Antônio Ferreira Borges Damasceno</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
 
