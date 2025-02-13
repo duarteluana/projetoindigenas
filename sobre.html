@@ -34,51 +34,59 @@
       width: 55%;
       padding-left: 180px;
     }
-    /* Media Query para telas médias (como tablets) */
-   @media screen and (max-width: 992px) {
-    .container {
-    flex-direction: column; 
-    align-items: center; 
-     }
-    .imagem {
-      width: 30%;
-      margin-bottom: 40px;
-      margin-right: auto;
-      
-    }
-    .texto {
-      width: 80%;
-      padding-left: 0;
-      font-size: 25px;
-      color: white;
-    }
-    h1 {
-      color: forestgreen;
-      text-align: center;
-    }
-}
- /* Media Query para telas médias (como tablets) */
-@media screen and (max-width: 992px) {
-    
-    .texto {
 
-      font-size: 20px;
+    /* Media Query para telas médias (como tablets) */
+    @media screen and (max-width: 992px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .imagem {
+        width: 30%;
+        margin-bottom: 40px;
+        margin-right: auto;
+
+      }
+
+      .texto {
+        width: 80%;
+        padding-left: 0;
+        font-size: 25px;
+        color: white;
+      }
+
+      h1 {
+        color: forestgreen;
+        text-align: center;
+      }
     }
-    .container img {
-      display: none;
-      width: 100%;
-      height: auto;
+
+    /* Media Query para telas médias (como tablets) */
+    @media screen and (max-width: 992px) {
+
+      .texto {
+
+        font-size: 20px;
+      }
+
+      .container img {
+        display: none;
+        width: 100%;
+        height: auto;
+      }
+
     }
-    
-}
   </style>
+  <link rel="icon" type="image/x-icon" href="imagens/favicon.ico">
+
 </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Página Inicial</a>
+      <img src="imagens/logo.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-top">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -146,13 +154,13 @@
           </li>
 
         </ul>
-        
+
       </div>
     </div>
   </nav>
 
   <div class="container">
-   
+
     <div class="imagem"><img src="imagens/sobre.jpg" alt="pai e filha indígenas ornamentados se olhando"></div>
 
     <div class="texto">

@@ -56,7 +56,9 @@
       height: 100%;
       display: flex;
       flex-direction: column;
+      border-radius: 10px;
     }
+
 
     .card img {
       height: 500px;
@@ -119,119 +121,138 @@
 
     }
 
-  /* Media Query para telas pequenas (como celulares) */
-@media screen and (max-width: 600px) {
-  div.card-body {
-    flex-grow: 1; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-    padding: 10px;
-    box-sizing: border-box;
-   
-    min-height: 300px;
+    /* Media Query para telas pequenas (como celulares) */
+    @media screen and (max-width: 600px) {
+      div.card-body {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        box-sizing: border-box;
 
-  
-  }
-  header {
-  min-height: 600px; 
-  }
- 
-  .card {
-    width: 100% !important; 
-    margin: auto;
-    margin-bottom: 10px; 
-    padding: auto;
-    height: 100%;
-    min-height: 350px; 
-    display: flex;
-    flex-direction: column;
-  }
+        min-height: 300px;
 
- 
-  .card img {
-    
-    height: auto; 
-    object-fit: contain;  
-    width: 100%;
-  }
 
- 
-  .row {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;  
-    
-  }
+      }
 
-  h1, h2, h3 {
-    text-align: center;
-  }
- 
-  .card-body {
-    font-size: 14px; 
-  }
+      header {
+        min-height: 600px;
+      }
 
-  .newsletter-container {
-    width: 100%;
-    max-width: 350px;  
-    margin: 0 auto;
-  }
-  .torno {
-    display: none;
-  }
-  .tucum {
-    display: none;
-  }
-  .desaparece {
-    display: none;
-  }
-  .centraliza {
-    font-size: 72px;
-  }
-}
+      .card {
+        width: 100% !important;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: auto;
+        height: 100%;
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+      }
+
+
+      .card img {
+
+        height: auto;
+        object-fit: contain;
+        width: 100%;
+      }
+
+
+      .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      }
+
+      h1,
+      h2,
+      h3 {
+        text-align: center;
+      }
+
+      .card-body {
+        font-size: 14px;
+      }
+
+      .newsletter-container {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+      }
+
+      .torno {
+        display: none;
+      }
+
+      .tucum {
+        display: none;
+      }
+
+      .desaparece {
+        display: none;
+      }
+
+      .centraliza {
+        font-size: 72px;
+      }
+    }
 
     /* Media Query para telas médias (como tablets) */
-   @media screen and (max-width: 992px) {
-    .container {
-    flex-direction: column; 
-    align-items: center; 
-     }
-  
-    h1 {
-      
-      text-align: center;
-    }
-    .card {
-        width: 98%; 
-        margin-bottom: 20px; 
-        
-    }
-    .tucum {
-      height: 150px;
-    }
-    .torno {
-      height: 150px;
-    }
-    #barco {
-      display: none;
-    }
-    footer {
-      
-      height: 400px;
-    }
-    
+    @media screen and (max-width: 992px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
 
-}
+      h1 {
 
+        text-align: center;
+      }
+
+      .card {
+        width: 98%;
+        margin-bottom: 20px;
+
+      }
+
+      .tucum {
+        height: 150px;
+      }
+
+      .torno {
+        height: 150px;
+      }
+
+      #barco {
+        display: none;
+      }
+
+      footer {
+
+        height: 400px;
+      }
+
+
+    }
   </style>
+  <link rel="icon" type="image/x-icon" href="imagens/favicon.ico">
 </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Página Inicial</a>
+
+
+
+
+      <a class="navbar-brand" href="index.html">
+        <img src="imagens/logo.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-top">
+
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -363,21 +384,22 @@
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col-3">
         <div class="card">
-          <img src="imagens/colar.webp" class="card-img-top" alt="colar indígena de miçangas em amarelo, vermelho e preto">
-          <div class="card-body">
-            <h5 class="card-title">Manio</h5>
-            <p class="card-text">Colar de Miçanga Azul Vermelha e Amarela Povo Kayapó. <br>R$ 399,00 no PIX ou em 12x de
-              R$ 33,25</p>
-          </div>
+          <img src="imagens/colar.webp" class="card-img-top"
+            alt="colar indígena de miçangas em amarelo, vermelho e preto">
+
+          <h5 class="card-title">Manio</h5>
+          <p class="card-text">Colar de Miçanga Azul Vermelha e Amarela Povo Kayapó. <br>R$ 399,00 no PIX ou em 12x de
+            R$ 33,25</p>
+
         </div>
       </div>
       <div class="col-3">
         <div class="card">
           <img src="imagens/colar1.webp" alt="colar indígena de sementes de cor dourada">
-          <div class="card-body">
-            <h5 class="card-title">Manio</h5>
-            <p class="card-text">Colar Artesanal Sementes Povo Wayana. <br>R$ 399,00 no PIX ou em 12x de R$ 33,25</p>
-          </div>
+
+          <h5 class="card-title">Manio</h5>
+          <p class="card-text">Colar Artesanal Sementes Povo Wayana. <br>R$ 399,00 no PIX ou em 12x de R$ 33,25</p>
+
         </div><br><br>
         <h2 class="centraliza">Pulseiras</h2><br>
       </div><br>
@@ -386,22 +408,23 @@
 
       <div class="col-3">
         <div class="card">
-          <img src="imagens/pulseira.webp" class="card-img-top" alt="pulseira indígena em madeira de cor branca e preta">
-          <div class="card-body">
-            <h5 class="card-title">Manio</h5>
-            <p class="card-text">Pulseira Indígena de Madeira Povo Xakriabá. <br>R$ 199,00 no PIX ou em 12x de R$ 16,58
-            </p>
-          </div>
+          <img src="imagens/pulseira.webp" class="card-img-top"
+            alt="pulseira indígena em madeira de cor branca e preta">
+
+          <h5 class="card-title">Manio</h5>
+          <p class="card-text">Pulseira Indígena de Madeira Povo Xakriabá. <br>R$ 199,00 no PIX ou em 12x de R$ 16,58
+          </p>
+
         </div>
       </div>
       <div class="col-3">
         <div class="card">
           <img src="imagens/pulseira2.jpg" class="card-img-top" alt="pulseiras indígenas de miçangas coloridas ">
-          <div class="card-body">
-            <h5 class="card-title">togetherband</h5>
-            <p class="card-text">Pulseiras de Miçangas e Pedras Brasileiras. <br>R$ 199,00 no PIX ou em 12x de R$ 16,58
-            </p>
-          </div>
+
+          <h5 class="card-title">togetherband</h5>
+          <p class="card-text">Pulseiras de Miçangas e Pedras Brasileiras. <br>R$ 199,00 no PIX ou em 12x de R$ 16,58
+          </p>
+
         </div>
       </div>
     </div><br><br>
@@ -411,42 +434,43 @@
       <div class="col-3">
         <div class="card">
           <img src="imagens/brinco.webp" class="card-img-top" alt="brincos indígenas coloridos em tons verdes">
-          <div class="card-body">
-            <h5 class="card-title">Tucum</h5>
-            <p class="card-text">Os brincos mais lindos com cheiro de natureza. <br>R$ 299,00 no PIX ou em 12x de R$
-              24,91</p>
-          </div>
+
+          <h5 class="card-title">Tucum</h5>
+          <p class="card-text">Os brincos mais lindos com cheiro de natureza. <br>R$ 299,00 no PIX ou em 12x de R$
+            24,91</p>
+
         </div>
       </div>
       <div class="col-3">
         <div class="card">
           <img src="imagens/brinco2.webp" class="card-img-top" alt="brincos indígenas coloridos com figura de pássaros">
-          <div class="card-body">
-            <h5 class="card-title">Brincos Indígenas</h5>
-            <p class="card-text">Brincos feitos com Miçangas Brasileiras diretamente da Amazônia. <br>R$ 299,00 no PIX
-              ou em 12x de R$ 24,91</p>
-          </div>
+
+          <h5 class="card-title">Brincos Indígenas</h5>
+          <p class="card-text">Brincos feitos com Miçangas Brasileiras diretamente da Amazônia. <br>R$ 299,00 no PIX
+            ou em 12x de R$ 24,91</p>
+
         </div><br><br><br>
         <h2 class="desaparece">Tornozeleiras</h2><br>
       </div>
 
       <div class="col-3">
         <div class="card">
-          <img src="imagens/tornozeleira.webp" class="card-img-top" alt="tornozeleira indígena produzida com sementes naturais">
-          <div class="card-body torno">
-            <h5 class="card-title">Tornozeleira</h5>
-            <p class="card-text">Sinta a natureza aos seus pés. <br>R$ 164,00 no PIX ou em 12x de R$ 13,66</p>
-          </div>
+          <img src="imagens/tornozeleira.webp" class="card-img-top"
+            alt="tornozeleira indígena produzida com sementes naturais">
+
+          <h5 class="card-title">Tornozeleira</h5>
+          <p class="card-text">Sinta a natureza aos seus pés. <br>R$ 164,00 no PIX ou em 12x de R$ 13,66</p>
+
         </div>
       </div>
       <div class="col-3">
         <div class="card">
           <img src="imagens/torno.webp" class="card-img-top" alt="tornozeleira indígena com sementes naturais">
-          <div class="card-body tucum">
-            <h5 class="card-title">Tucum</h5>
-            <p class="card-text">Tornozeleiras feitas com matéria-prima e mão de obra brasileira. <br>R$ 164,00 no PIX
-              ou em 12x de R$ 13,66</p>
-          </div>
+
+          <h5 class="card-title">Tucum</h5>
+          <p class="card-text">Tornozeleiras feitas com matéria-prima e mão de obra brasileira. <br>R$ 164,00 no PIX
+            ou em 12x de R$ 13,66</p>
+
         </div>
       </div>
     </div><br><br><br>

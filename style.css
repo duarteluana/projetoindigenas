@@ -4,6 +4,34 @@
     
 }
 
+.navbar-nav .nav-link {
+    color: #333;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-item.show .nav-link {
+    color: #9c8f3f;
+    background-color: rgba(156, 143, 63, 0.1); 
+  }
+  
+ 
+  .dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    color: #333;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .dropdown-item:hover {
+    color: #9c8f3f;
+    background-color: rgba(156, 143, 63, 0.1);
+  }
+
+
 body {
     line-height: 1.6;
     margin: 0;
@@ -68,6 +96,12 @@ h2 {
    margin: 10px;
   
 }
+.navbar-brand img {
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
 
 
 footer {
@@ -197,3 +231,16 @@ footer > p {
 @media screen and (min-width: 993px) {
     
 }
+@media screen and (max-width: 992px) {
+    .row-cols-md-2 > * {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+    .card-text {
+        padding-bottom: 10%;
+        
+      }
+      
+
+    
+  }
